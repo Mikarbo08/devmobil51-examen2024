@@ -1,0 +1,19 @@
+{
+  "name": "code-examen2024",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "overlay:server": "node src/backend/OverlayServer.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "ws": "^8.18.0"
+  }
+}
